@@ -6,16 +6,26 @@ This project demonstrates **ESP-NOW** communication using the **M5StickC Plus** 
 
 ## Hardware Used
 
+- M5StickC Plus 1
+
+![image](Images/JoyStick-Mini-M5StickCPlus1-EspNow.jpg)
+
 - M5StickC Plus 2
 
 ![image](Images/JoyStick-Mini-M5StickCPlus2-EspNow.jpg)
 
 - M5Stack Mini JoyC module (joystick)
+
+![image](M5-MiniJoyC.jpg)
+
 - ESP32 DevKit (WROOM)
 
 ![image](Images/Esp32-Wroom.jpg)
 
 - USB connection cables
+
+![image](USB-Cable.jpg)
+
 
 ## How It Works
 
