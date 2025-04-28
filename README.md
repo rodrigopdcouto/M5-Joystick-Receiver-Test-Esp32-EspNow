@@ -16,7 +16,7 @@ This project demonstrates **ESP-NOW** communication using the **M5StickC Plus** 
 
 - M5Stack Mini JoyC module (joystick)
 
-![image](M5-MiniJoyC.jpg)
+![image](Images/M5-MiniJoyC.jpg)
 
 - ESP32 DevKit (WROOM)
 
@@ -98,10 +98,12 @@ To upload a firmware binary file to the **M5StickC Plus** using the **`esptool`*
 
   ```bash
   esptool.py --chip esp32 --port COMx write_flash -z 0x1000 JoyStick-Mini-M5StickCPlus1-EspNow.bin
+  esptool write_flash -z 0 JoyStick-Mini-M5StickCPlus1-EspNow.bin (With Binary install System32)
   
   or
 
   esptool.py --chip esp32 --port COMx write_flash -z 0x1000 JoyStick-Mini-M5StickCPlus2-EspNow.bin
+  esptool write_flash -z 0 JoyStick-Mini-M5StickCPlus2-EspNow.bin (With Binary install System32)
   ```
 
 ## Explanation of the Command:
