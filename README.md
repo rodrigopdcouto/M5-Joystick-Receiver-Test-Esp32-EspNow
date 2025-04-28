@@ -85,11 +85,12 @@ To upload a firmware binary file to the **M5StickC Plus** using the **`esptool`*
 
   ```bash
   esptool.py --chip esp32 --port COMx write_flash -z 0x1000 JoyStick-Mini-M5StickCPlus1-EspNow.bin
-
+  ```
 or
 
   ```bash
   esptool.py --chip esp32 --port COMx write_flash -z 0x1000 JoyStick-Mini-M5StickCPlus2-EspNow.bin
+  ```
 
 ## Explanation of the Command:
 
@@ -125,6 +126,7 @@ Writing flash...
 Wrote 40960 bytes at 0x1000 in 4.3 seconds (76.5 KB/s)...
 Leaving...
 Hard resetting...
+```
 
 ## Notes
 
