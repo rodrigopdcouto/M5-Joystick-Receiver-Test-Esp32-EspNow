@@ -24,7 +24,7 @@ This project demonstrates **ESP-NOW** communication using the **M5StickC Plus** 
 
 - USB connection cables
 
-![image](USB-Cable.jpg)
+![image](Images/USB-Cable.jpg)
 
 
 ## How It Works
