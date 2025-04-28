@@ -58,7 +58,7 @@ This project demonstrates **ESP-NOW** communication using the **M5StickC Plus** 
 ## How to Use
 
 1. Upload the `JoyStick-Mini-M5StickCPlus1-EspNow.bin` code to the **M5StickC Plus 1** or `JoyStick-Mini-M5StickCPlus2-EspNow.bin` code to the **M5StickC Plus 2** with esptool.
-2. Upload the `receiver.ino` code to the **ESP32 WROOM**.
+2. Upload the `M5-Joystick-Receiver-Test-Esp32-EspNow.ino` code to the **ESP32 WROOM**.
 3. Open the **Serial Monitor** in the Arduino IDE set to **115200 baud**.
 4. Move the joystick or press the button — the ESP32 will display messages such as:
    - `Joystick UP`
