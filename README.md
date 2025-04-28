@@ -94,16 +94,28 @@ To upload a firmware binary file to the **M5StickC Plus** using the **`esptool`*
 
 ### 4. Use the `esptool` Command to Write the Flash:
 - Open a **Command Prompt** (Windows) or **Terminal** (macOS/Linux).
-- Run the following command (replace `COMx` with the correct serial port and adjust the binary file name if needed):
+- Run the following command for M5StickC Plus 1 (replace `COMx` with the correct serial port and adjust the binary file name if needed):
 
   ```bash
   esptool.py --chip esp32 --port COMx write_flash -z 0x1000 JoyStick-Mini-M5StickCPlus1-EspNow.bin
-  esptool write_flash -z 0 JoyStick-Mini-M5StickCPlus1-EspNow.bin (With Binary install System32)
+  ```
   
-  or
+- Run the following command for M5StickC Plus 2 (replace `COMx` with the correct serial port and adjust the binary file name if needed):
 
+  ```bash
   esptool.py --chip esp32 --port COMx write_flash -z 0x1000 JoyStick-Mini-M5StickCPlus2-EspNow.bin
-  esptool write_flash -z 0 JoyStick-Mini-M5StickCPlus2-EspNow.bin (With Binary install System32)
+  ```
+
+- Run the following command M5StickC Plus 1 for (When using the binary installation, place the binary file in the System32 directory if needed):
+
+  ```bash
+  esptool write_flash -z 0 JoyStick-Mini-M5StickCPlus1-EspNow.bin
+  ```
+
+- Run the following command M5StickC Plus 2 for (When using the binary installation, place the binary file in the System32 directory if needed):
+
+  ```bash
+  esptool write_flash -z 0 JoyStick-Mini-M5StickCPlus2-EspNow.bin
   ```
 
 ## Explanation of the Command:
